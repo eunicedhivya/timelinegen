@@ -1,0 +1,61 @@
+
+.formHead{
+    margin-bottom: 30px;
+}
+.formControl{
+    flex: 1;
+}
+
+.formControl input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 5px;
+}
+
+.formControlGroup {
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.removeBtn {
+    align-self: center;
+}
+
+.formControlSection h3 {
+    margin-bottom: 30px;
+}
+
+
+.addmore{
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: -20px;
+    display: block;
+    float: right;
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.1);
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+
+.addmore:hover {
+    background-color: #f8f8f8;
+}
+
+.removeBtn {
+    background-color: var(--white-color);
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.removeBtn:hover {
+    background-color: var(--bg-color);
+}
